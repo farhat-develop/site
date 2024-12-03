@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naiman Restaurant</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Naiman Restaurant</div>
+            <ul>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#booking">Бронирование</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Добро пожаловать в Naiman Restaurant</h1>
+            <p>Лучшее место для семейного ужина</p>
+            <button>Посмотреть меню</button>
+        </section>
+        <section id="menu">
+            <h2>Наше меню</h2>
+            <div class="menu-items">
+                <!-- Карточки блюд -->
+                <div class="menu-item">
+                    <img src="/images/plow.jpg" alt="Dish">
+                    <h3>Плов по-казахски</h3>
+                    <p>Сытный и ароматный плов с мясом</p>
+                    <span>Цена: 1500₸</span>
+                </div>
+            </div>
+        </section>
+        <section id="booking">
+            <h2>Забронировать стол</h2>
+            <form>
+                <input type="text" placeholder="Имя">
+                <input type="tel" placeholder="Телефон">
+                <input type="datetime-local">
+                <select>
+                    <option>2 человека</option>
+                    <option>4 человека</option>
+                </select>
+                <button>Забронировать</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Naiman Restaurant</p>
+    </footer>
+</body>
+</html>
